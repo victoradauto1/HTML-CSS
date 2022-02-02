@@ -1,0 +1,148 @@
+@charset "UTF-8";
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+}
+@font-face {
+    font-family: titulo;
+    src: url(fontes/OpenSansCondensed-Light.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    color: white;
+    text-align: center;
+    padding: 1px;
+    background-image: linear-gradient(to top, #1A5C38, #3CD983) ;
+    font-family: titulo;
+}
+
+hgroup > h1 {
+    font-size: 40px;
+    text-shadow: 1px 1px 1px black;
+}
+
+hgroup > h2{
+    font-size: 16px;
+    text-shadow: 1px 1px 1px black;
+}
+
+nav {
+    text-align: left;
+
+}
+
+nav > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav > ul > li {
+    display: inline;
+    margin: 15px;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    text-shadow: none;
+}
+
+main {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 12px;  
+}
+
+article > p {
+    text-indent: 10px;
+    font-family: titulo;
+    text-align: justify
+}
+article > h2 {
+    color: #3F7758;
+    font-family: android;
+    font-size: 35px;
+
+
+}
+
+ article > h3 { 
+    color: #3F7758;
+    font-family: android;
+    background-image: linear-gradient(to right, #D0EFDE, white);
+    font-size: 25px;
+}
+
+picture#figura2 > img{
+    display: block;
+    margin: auto;
+}
+
+section{
+    background-color: #1A5C38;
+    margin: -10px;
+}
+
+section > iframe {
+    display: block;
+    margin: auto;
+    padding: 15px;
+}
+
+aside > p {
+    text-indent: 10px;
+    font-family: titulo;
+    text-align: justify;
+    
+}
+
+aside > div {
+    background-color: #C5EBD6;
+    border-radius: 10px;
+    box-shadow: 2px 1px 1px 0px rgb(0 0 0 / 38%)
+}
+
+aside > div > h2 {
+    font-family: titulo;
+    background-color: #2FA866;
+    color: white;
+    padding: 9px;
+    display: block;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+aside > div > p {
+    text-indent: 10px;
+    font-family: titulo;
+    text-align: justify;
+    font-weight: bold;
+}
+
+aside > div > ol {
+    font-family: titulo;
+    font-weight: bold;
+
+}
+
+footer {
+    background-color: #1A5C38;
+    font-family: titulo;
+    padding: 1px;
+}
+
+footer > p {
+    text-align: center;
+    color: white;
+    margin:0;
+}
